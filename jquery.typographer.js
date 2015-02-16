@@ -38,7 +38,7 @@
 				}
 
 			$(elem).html(function() {
-				return $(elem).text().replace(regex, replacement);
+				return $(elem).html().replace(regex, replacement);
 			});
 		}
 	});
