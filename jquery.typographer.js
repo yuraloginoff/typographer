@@ -10,7 +10,7 @@
 
 	var pluginName 	= "typographer",
 		defaults 	= {
-			prepositions: ["в","во","без","до","из","к","ко","на","по","о","от","перед","при","через","с","у","не","за","над","для","об","под","про","и","а","но","да","или","ли","бы","то","что","как","я","он","мы","они","ни","же","вы"],
+			prepositions: ["в","во","без","до","из","к","ко","на","по","о","от","при","с","у","не","за","над","для","об","под","про","и","а","но","да","или","ли","бы","то","что","как","я","он","мы","они","ни","же","вы","им"],
 			nbsp: '&nbsp;'
 		};
 
@@ -32,13 +32,17 @@
 				prepositions = settings.prepositions.map(function (item, index) {
 					return ' ' + item + ' ';
 				}),
+				prepositions2 = settings.prepositions.map(function (item, index) {
+					return '&nbsp;' + item + ' ';
+				}),
 				regex = RegExp( prepositions.join('|'), 'gi' ),
+				regex2 = RegExp( prepositions2.join('|'), 'gi' ),
 				replacement = function (str, p1, p2, offset, s) {
 					return str.slice(0, -1) + nbsp;
-				}
+				};
 
 			$(elem).html(function() {
-				return $(elem).html().replace(regex, replacement);
+				return $(elem).html().replace(regex, replacement).replace(regex2, replacement);
 			});
 		}
 	});
