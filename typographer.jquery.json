@@ -1,0 +1,27 @@
+{
+  "name": "typographer",
+  "title": "Typographer",
+  "description": "Russian typography jQuery plugin.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/sakharstudio/typographer",
+  "author": {
+    "name": "Loginov Yura",
+    "email": "yuraloginoff@gmail.com",
+    "url": "http://yuraloginoff.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sakharstudio/typographer.git"
+  },
+  "bugs": "https://github.com/sakharstudio/typographer/issues",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/sakharstudio/typographer/blob/master/LICENSE-MIT"
+    }
+  ],
+  "dependencies": {
+    "jquery": "*"
+  },
+  "keywords": []
+}
