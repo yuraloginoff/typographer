@@ -1,6 +1,6 @@
 # Typographer
 
-Russian typography jQuery plugin.
+Russian typography jQuery plugin. Плагин убирает висячие предлоги.
 
 ## Getting Started
 Download the [production version][min] or the [development version][max].
