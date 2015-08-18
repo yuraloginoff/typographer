@@ -5,8 +5,8 @@ Russian typography jQuery plugin. Плагин убирает висячие п�
 ## Getting Started
 Download the [production version][min] or the [development version][max].
 
-[min]: https://raw.github.com/yuraloginoff/typographer/master/dist/typographer.min.js
-[max]: https://raw.github.com/yuraloginoff/typographer/master/dist/typographer.js
+[min]: https://raw.githubusercontent.com/sakharstudio/typographer/master/dist/typographer.min.js
+[max]: https://raw.githubusercontent.com/sakharstudio/typographer/master/dist/typographer.js
 
 In your web page:
 
@@ -15,7 +15,7 @@ In your web page:
 <script src="dist/typographer.min.js"></script>
 <script>
 jQuery(function($) {
-  $.awesome(); // "awesome"
+  $('p').typographer();
 });
 </script>
 ```
@@ -24,7 +24,9 @@ jQuery(function($) {
 _(Coming soon)_
 
 ## Examples
-_(Coming soon)_
+See the [demo page][demo].
+
+[demo]: http://sakharstudio.github.io/typographer/
 
 ## Release History
 _(Nothing yet)_
