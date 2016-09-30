@@ -26,7 +26,7 @@ _(Coming soon)_
 ## Examples
 See the [demo page][demo].
 
-[demo]: http://sakharstudio.github.io/typographer/
+[demo]: http://yuraloginoff.github.io/typographer/
 
 ## Release History
 _(Nothing yet)_
